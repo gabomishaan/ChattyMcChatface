@@ -1,9 +1,12 @@
 {
+  "homepage":"http:gabomishaan.github.io./Chatty-McChatface",
   "name": "Chatty-McChatface",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",    
     "devStart": "nodemon server.js"
   },
   "author": "",
@@ -14,5 +17,5 @@
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "nodemon": "^1.19.4"
-  }
+  },
 }
