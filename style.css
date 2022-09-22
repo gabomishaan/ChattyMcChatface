@@ -1,0 +1,61 @@
+
+
+ body {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      background: linear-gradient(120deg, #17bebb, #77B5D9);
+      overflow: hidden;
+    }
+
+    #message-container {
+      width: 80%;
+      max-width: 1200px;
+    }
+
+    #message-container div {
+      background-color: #77B5D9;
+      padding: 5px;
+      color: #D7EAF3;
+      padding-bottom: 3px;
+      padding-top: 3px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    #message-container div:nth-child(2n) {
+      background-color: #14397D;
+      color: #D7EAF3;
+      padding-bottom: 3px;
+      padding-top: 3px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    #send-container {
+      position: fixed;
+      padding-bottom: 30px;
+      bottom: 0;
+      background-color: #D7EAF3;
+      max-width: 1200px;
+      width: 80%;
+      display: flex;
+    }
+
+    #message-input {
+      flex-grow: 1;
+      background-color: #77B5D9;
+      color: #F8F0E3;
+    }
+
+
+      #send-button {
+      background-color: #14397D;
+      color: #F8F0E3;
+    }
+
+      #send-button:hover {
+      background-color: #2361d5;
+      color: #F8F0E3;
+    }
